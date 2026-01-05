@@ -58,9 +58,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F599A60F2E79B83900BC89CD /* ChatNest_Tests */ = {
+		F599A60F2E79B83900BC89CD /* ChatNestUniversityProject_Tests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ChatNest_Tests;
+			path = ChatNestUniversityProject_Tests;
 			sourceTree = "<group>";
 		};
 		F5B3A73C2E3BCAC800439175 /* ChatNest */ = {
@@ -71,9 +71,9 @@
 			path = ChatNest;
 			sourceTree = "<group>";
 		};
-		F5B6EC0D2E7D65CD0093E8EB /* ChatNest_UITests */ = {
+		F5B6EC0D2E7D65CD0093E8EB /* ChatNestUniversityProject_UITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ChatNest_UITests;
+			path = ChatNestUniversityProject_UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -121,8 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				F5B3A73C2E3BCAC800439175 /* ChatNest */,
-				F599A60F2E79B83900BC89CD /* ChatNest_Tests */,
-				F5B6EC0D2E7D65CD0093E8EB /* ChatNest_UITests */,
+				F599A60F2E79B83900BC89CD /* ChatNestUniversityProject_Tests */,
+				F5B6EC0D2E7D65CD0093E8EB /* ChatNestUniversityProject_UITests */,
 				F5B3A73B2E3BCAC800439175 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 				F599A6132E79B83900BC89CD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F599A60F2E79B83900BC89CD /* ChatNest_Tests */,
+				F599A60F2E79B83900BC89CD /* ChatNestUniversityProject_Tests */,
 			);
 			name = ChatNestUniversityProjectUniversityProjectTests;
 			packageProductDependencies = (
@@ -228,7 +228,7 @@
 				F5B6EC132E7D65CD0093E8EB /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F5B6EC0D2E7D65CD0093E8EB /* ChatNest_UITests */,
+				F5B6EC0D2E7D65CD0093E8EB /* ChatNestUniversityProject_UITests */,
 			);
 			name = ChatNestUniversityProjectUniversityProject_UITests;
 			packageProductDependencies = (
