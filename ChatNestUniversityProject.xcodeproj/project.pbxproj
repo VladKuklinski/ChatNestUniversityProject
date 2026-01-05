@@ -48,7 +48,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F5B3FA7E2E6CB259006EB921 /* Exceptions for "ChatNest" folder in "ChatNestUniversityProjectUniversityProject" target */ = {
+		F5B3FA7E2E6CB259006EB921 /* Exceptions for "ChatNestUniversityProject" folder in "ChatNestUniversityProjectUniversityProject" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -63,12 +63,12 @@
 			path = ChatNestUniversityProject_Tests;
 			sourceTree = "<group>";
 		};
-		F5B3A73C2E3BCAC800439175 /* ChatNest */ = {
+		F5B3A73C2E3BCAC800439175 /* ChatNestUniversityProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				F5B3FA7E2E6CB259006EB921 /* Exceptions for "ChatNest" folder in "ChatNestUniversityProjectUniversityProject" target */,
+				F5B3FA7E2E6CB259006EB921 /* Exceptions for "ChatNestUniversityProject" folder in "ChatNestUniversityProjectUniversityProject" target */,
 			);
-			path = ChatNest;
+			path = ChatNestUniversityProject;
 			sourceTree = "<group>";
 		};
 		F5B6EC0D2E7D65CD0093E8EB /* ChatNestUniversityProject_UITests */ = {
@@ -120,7 +120,7 @@
 		F5B3A7312E3BCAC800439175 = {
 			isa = PBXGroup;
 			children = (
-				F5B3A73C2E3BCAC800439175 /* ChatNest */,
+				F5B3A73C2E3BCAC800439175 /* ChatNestUniversityProject */,
 				F599A60F2E79B83900BC89CD /* ChatNestUniversityProject_Tests */,
 				F5B6EC0D2E7D65CD0093E8EB /* ChatNestUniversityProject_UITests */,
 				F5B3A73B2E3BCAC800439175 /* Products */,
@@ -178,7 +178,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F5B3A73C2E3BCAC800439175 /* ChatNest */,
+				F5B3A73C2E3BCAC800439175 /* ChatNestUniversityProject */,
 			);
 			name = ChatNestUniversityProjectUniversityProject;
 			packageProductDependencies = (
