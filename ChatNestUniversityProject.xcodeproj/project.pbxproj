@@ -12,8 +12,6 @@
 		F5515E1F2E3D031E00FFD8DF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F5515E1E2E3D031E00FFD8DF /* FirebaseFirestore */; };
 		F5515E212E3D031E00FFD8DF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F5515E202E3D031E00FFD8DF /* FirebaseStorage */; };
 		F5B3F9A82E69A000006EB921 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F5B3F9A72E69A000006EB921 /* SDWebImageSwiftUI */; };
-		F5B3FA772E6C3B86006EB921 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = F5B3FA762E6C3B86006EB921 /* FacebookCore */; };
-		F5B3FA792E6C3B86006EB921 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = F5B3FA782E6C3B86006EB921 /* FacebookLogin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +40,13 @@
 
 /* Begin PBXFileReference section */
 		F599A60E2E79B83900BC89CD /* ChatNestUniversityProjectUniversityProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatNestUniversityProjectUniversityProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5B3A73A2E3BCAC800439175 /* ChatNestUniversityProjectUniversityProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatNestUniversityProjectUniversityProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B3A73A2E3BCAC800439175 /* ChatNestUniversityProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatNestUniversityProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B6EBFB2E7C0A390093E8EB /* ChatNestUniversityProjectUniversityProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatNestUniversityProjectUniversityProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B6EC0C2E7D65CD0093E8EB /* ChatNestUniversityProjectUniversityProject_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatNestUniversityProjectUniversityProject_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F5B3FA7E2E6CB259006EB921 /* Exceptions for "ChatNestUniversityProject" folder in "ChatNestUniversityProjectUniversityProject" target */ = {
+		F5C0F93B2F0C905D0098B969 /* Exceptions for "ChatNestUniversityProject" folder in "ChatNestUniversityProjectUniversityProject" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -66,7 +64,7 @@
 		F5B3A73C2E3BCAC800439175 /* ChatNestUniversityProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				F5B3FA7E2E6CB259006EB921 /* Exceptions for "ChatNestUniversityProject" folder in "ChatNestUniversityProjectUniversityProject" target */,
+				F5C0F93B2F0C905D0098B969 /* Exceptions for "ChatNestUniversityProject" folder in "ChatNestUniversityProjectUniversityProject" target */,
 			);
 			path = ChatNestUniversityProject;
 			sourceTree = "<group>";
@@ -91,11 +89,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5B3F9A82E69A000006EB921 /* SDWebImageSwiftUI in Frameworks */,
-				F5B3FA772E6C3B86006EB921 /* FacebookCore in Frameworks */,
 				F5515E1D2E3D031E00FFD8DF /* FirebaseDatabase in Frameworks */,
 				F5515E212E3D031E00FFD8DF /* FirebaseStorage in Frameworks */,
 				F5515E1B2E3D031E00FFD8DF /* FirebaseAuth in Frameworks */,
-				F5B3FA792E6C3B86006EB921 /* FacebookLogin in Frameworks */,
 				F5515E1F2E3D031E00FFD8DF /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,7 +126,7 @@
 		F5B3A73B2E3BCAC800439175 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5B3A73A2E3BCAC800439175 /* ChatNestUniversityProjectUniversityProject.app */,
+				F5B3A73A2E3BCAC800439175 /* ChatNestUniversityProject.app */,
 				F599A60E2E79B83900BC89CD /* ChatNestUniversityProjectUniversityProjectTests.xctest */,
 				F5B6EBFB2E7C0A390093E8EB /* ChatNestUniversityProjectUniversityProjectUITests.xctest */,
 				F5B6EC0C2E7D65CD0093E8EB /* ChatNestUniversityProjectUniversityProject_UITests.xctest */,
@@ -187,11 +183,9 @@
 				F5515E1E2E3D031E00FFD8DF /* FirebaseFirestore */,
 				F5515E202E3D031E00FFD8DF /* FirebaseStorage */,
 				F5B3F9A72E69A000006EB921 /* SDWebImageSwiftUI */,
-				F5B3FA762E6C3B86006EB921 /* FacebookCore */,
-				F5B3FA782E6C3B86006EB921 /* FacebookLogin */,
 			);
 			productName = MyNewMessanger;
-			productReference = F5B3A73A2E3BCAC800439175 /* ChatNestUniversityProjectUniversityProject.app */;
+			productReference = F5B3A73A2E3BCAC800439175 /* ChatNestUniversityProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F5B6EBFA2E7C0A390093E8EB /* ChatNestUniversityProjectUniversityProjectUITests */ = {
@@ -276,7 +270,6 @@
 			packageReferences = (
 				F5515E192E3D031E00FFD8DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				F5B3F9A62E69A000006EB921 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
-				F5B3FA752E6C3B86006EB921 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F5B3A73B2E3BCAC800439175 /* Products */;
@@ -561,7 +554,8 @@
 				DEVELOPMENT_TEAM = N8QP4XQ6BH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ChatNest/Info.plist;
+				INFOPLIST_FIL = "";
+				INFOPLIST_FILE = ChatNestUniversityProject/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ChatNestUniversityProject;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -573,8 +567,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				NEW_SETTING2 = "";
+				NEW_SETTING3 = "";
+				NEW_SETTING4 = "";
 				PRODUCT_BUNDLE_IDENTIFIER = swiftLessons.ChatNestUniversityProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ChatNestUniversityProject;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -591,7 +590,8 @@
 				DEVELOPMENT_TEAM = N8QP4XQ6BH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ChatNest/Info.plist;
+				INFOPLIST_FIL = "";
+				INFOPLIST_FILE = ChatNestUniversityProject/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ChatNestUniversityProject;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -603,8 +603,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				NEW_SETTING2 = "";
+				NEW_SETTING3 = "";
+				NEW_SETTING4 = "";
 				PRODUCT_BUNDLE_IDENTIFIER = swiftLessons.ChatNestUniversityProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ChatNestUniversityProject;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -746,14 +751,6 @@
 				minimumVersion = 3.1.3;
 			};
 		};
-		F5B3FA752E6C3B86006EB921 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 14.1.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -781,16 +778,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F5B3F9A62E69A000006EB921 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
-		};
-		F5B3FA762E6C3B86006EB921 /* FacebookCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F5B3FA752E6C3B86006EB921 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookCore;
-		};
-		F5B3FA782E6C3B86006EB921 /* FacebookLogin */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F5B3FA752E6C3B86006EB921 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookLogin;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
