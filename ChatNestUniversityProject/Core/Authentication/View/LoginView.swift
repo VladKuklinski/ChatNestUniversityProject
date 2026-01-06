@@ -38,14 +38,14 @@ struct LoginView: View {
                         RoundedRectangle(cornerRadius: 10)
                             .fill(Color(.systemGroupedBackground))
                             .frame(height: 50)
-
+                        
                         HStack {
                             if showPassword {
                                 TextField("Write password", text: $viewModel.password)
                             } else {
                                 SecureField("Write password", text: $viewModel.password)
                             }
-
+                            
                             Button(action: { showPassword.toggle() }) {
                                 Image(systemName: showPassword ? "eye" : "eye.slash")
                                     .foregroundColor(.gray)
@@ -62,39 +62,25 @@ struct LoginView: View {
                     }
                 }
                 Spacer()
-                    .frame(height: 40)
-                VStack(spacing: 12) {
-                    Button {
-                        Task {
-                            await viewModel.login()
-                            if viewModel.errorMessage != nil {
-                                showErrorAlert.toggle()
-                            }
+                    .frame(height: 70)
+                
+                Button {
+                    Task {
+                        await viewModel.login()
+                        if viewModel.errorMessage != nil {
+                            showErrorAlert.toggle()
                         }
-                    } label: {
-                        Text("Login")
-                            .frame(maxWidth: .infinity)
-                            .font(.title3)
-                            .foregroundStyle(.white)
-                            .padding(.vertical, 10)
-                            .background(.blue)
-                            .clipShape(RoundedRectangle(cornerRadius: 10))
                     }
-                    HStack {
-                        Rectangle()
-                            .frame(width: 165, height: 0.5)
-                        Text("OR")
-                            .font(.footnote)
-                        Rectangle()
-                            .frame(width: 165, height: 0.5)
-                    }
-                    .padding(.top, 6)
-                    
-                    .foregroundStyle(Color(.systemGray2))
-                    FacebookLoginButtonView()
-                            .frame(height: 44)
-                            .padding()
+                } label: {
+                    Text("Login")
+                        .frame(maxWidth: .infinity)
+                        .font(.title3)
+                        .foregroundStyle(.white)
+                        .padding(.vertical, 10)
+                        .background(.blue)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
                 }
+                
                 Spacer()
                 Divider()
                     .padding(.bottom)

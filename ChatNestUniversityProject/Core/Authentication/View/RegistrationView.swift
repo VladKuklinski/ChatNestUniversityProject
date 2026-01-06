@@ -112,11 +112,8 @@ struct RegistrationView: View {
                         .frame(width: 165, height: 0.5)
                 }
                 .padding(.top, 6)
-                
                 .foregroundStyle(Color(.systemGray2))
-                FacebookLoginButtonView()
-                    .frame(height: 44)
-                    .padding()
+                
             }
             Spacer()
             Spacer()

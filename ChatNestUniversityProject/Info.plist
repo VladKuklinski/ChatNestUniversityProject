@@ -2,27 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>fb803137688780406</string>
-			</array>
-		</dict>
-	</array>
-	<key>FacebookAppID</key>
-	<string>803137688780406</string>
-	<key>FacebookClientToken</key>
-	<string>7f853d475d6198272269ad37d76a5b9b</string>
-	<key>FacebookDisplayName</key>
-	<string>MyNewMessengerApp</string>
-	<key>LSApplicationQueriesSchemes</key>
-	<array>
-		<string>fbapi</string>
-		<string>fb-messenger-share-api</string>
-		<string>fbauth2</string>
-		<string>fbshareextension</string>
-	</array>
+	<key>CFBundleIdentifier</key>
+	<string>swiftLessons.ChatNestUniversityProject</string>
+	<key>CFBundleName</key>
+	<string>ChatNestUniversityProject</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
 </dict>
 </plist>

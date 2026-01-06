@@ -10,7 +10,6 @@ import Firebase
 import FirebaseAuth
 import FirebaseStorage
 import FirebaseFirestore
-import FacebookLogin
 
 @MainActor
 class AuthService: ObservableObject, AuthServiceProtocol {
@@ -44,7 +43,7 @@ class AuthService: ObservableObject, AuthServiceProtocol {
         try await user.delete()
         await MainActor.run { self.userSession = nil }
         if Auth.auth().currentUser == nil { print("DEBUG: user was deleted") }
-        LoginManager().logOut()
+        //LoginManager().logOut()
     }
 
     func sendPasswordReset(email: String) async throws {
@@ -91,7 +90,7 @@ class AuthService: ObservableObject, AuthServiceProtocol {
         try Auth.auth().signOut()
         userService.currentUser = nil
         userSession = nil
-        LoginManager().logOut()
+        //LoginManager().logOut()
         print("DEBUG: User signed out")
     }
 
